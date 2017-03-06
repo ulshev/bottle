@@ -1,0 +1,494 @@
+@media screen and (min-width: 1921px) {
+	header#header {
+		min-height: 120px;
+	}
+	#header>div {
+		padding: 12px 13px;
+		max-width: 1510px;
+		font-size: 1.14em;
+		line-height: 120%;
+	}
+	#logo {
+		margin: 6px 15px 0px 0px;
+		width: 295px;
+	}
+	#headr_cont  {
+		margin: 41px -11px 12px 30px;
+		padding-left: 30px;
+		width: 166px;   
+		font-size: 1.20em;
+		line-height: 120%;
+		letter-spacing: 0.03em;
+		background-position: left 4px;
+		background-size: 17px 17px;
+	}
+	header nav {
+		margin: 41px 190px 10px 350px;
+		
+	}
+	header nav ul li ul {
+		width: 580px;
+	}
+	header nav ul li ul:before {
+		top: -9px;
+	}
+	
+	#foo_in {
+		padding: 20px 10px;
+		max-width: 1510px;
+		font-size: 1.02em;
+		line-height: 120%;
+	}
+	#foo_logo {
+		width: 300px;
+	}
+	
+	.main_section>div {
+		padding: 70px 25px 25px;
+		width: 1480px;
+	}
+	.main_section h2 {
+		font-size: 2.4em;
+		line-height: 140%;
+	}
+	form {
+		padding-top: 13px;
+		width: 1000px;
+		margin: 0 auto 35px;
+	}
+	input, textarea, select {
+		margin-bottom: 25px;
+		width: 900px;
+		height: 48px;
+		line-height: 48px;
+	}
+	form textarea {
+		height: 108px;
+		min-width: 900px;
+		max-width: 900px;
+		min-height: 108px;
+		max-height: 150px;
+		line-height: 140%;
+		margin-bottom: 40px;
+	}
+	form input[type="submit"] {
+		width: 216px;
+		height: 57px;
+	}
+	form input[type="submit"]:active {
+		height: 55px;
+		width: 214px;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	#header>div {
+		max-width: 980px;
+		font-size: 0.75em;
+		line-height: 120%;
+	}
+	#logo {
+		width: 210px;
+	}
+	#headr_cont  {
+		margin-top: 26px;
+		margin-left: 15px;
+		padding-left: 15px;
+		width: 116px;   
+		background-position: left 2px;
+		background-size: 11px 11px;
+	}
+	header nav {
+		margin: 28px 140px 10px 220px;
+		
+	}
+	
+	header nav ul li ul {
+		width: 400px;
+	}
+	header nav ul li ul:before {
+		left: 12%;
+	}
+	#foo_in {
+		padding: 20px 10px;
+		max-width: 980px;
+		font-size: 0.70em;
+		line-height: 140%;
+	}
+	#foo_logo {
+		width: 220px;
+	}
+	
+	#foo_in #foo_menu {
+		width: 70%;
+	}
+	#foo_in #foo_menu section + section {
+		width: 24%;
+	}
+	#foo_in #foo_menu section + section + section {
+		width: 46%;
+	}
+	
+	#about {
+		background-size: cover;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	#header>div {
+		font-size: 1.1em;
+		line-height: 120%;
+	}
+	#headr_cont  {
+		float: left;
+		margin-left: 15%;
+		width: auto;
+	}
+	header nav {
+		width: 40px;
+		height: 24px;
+		border-bottom: 8px solid #fff;
+		border-top: 8px solid #fff;
+		position: relative;
+		float: right;
+		margin: 15px 20px 0 20px;
+		border-radius: 2px;
+	}
+	header nav:after {
+		width: 40px;
+		height: 8px;
+		position: absolute;
+		top: 8px;
+		left: 0;
+		background-color:  #fff;
+		content: "";
+	}
+	header nav:hover, header nav:active {
+		border-color: #89b713
+	}
+	header nav:hover:after, header nav:active:after {
+		background-color:  #89b713;
+	}
+	
+	header nav ul {
+		margin-top: 49px;
+		padding: 15px 0;
+		width: 320px;
+		background-color: #fff;
+		position: absolute;
+		right: -11px;
+		border-bottom: 5px solid #89b713;
+		box-shadow: 0px 0px 5px RGBA(34, 34, 34, 0.2);
+		max-height: 350px;
+		overflow: auto;
+	}
+	header nav>ul {
+		display: none;
+	}
+	header nav:hover>ul {
+		display: block;
+	}
+	header nav:before {
+		width: 55px;
+		height: 20px;
+		position: absolute;
+		top: 30px;
+		right: 0px;
+		background: transparent;
+		content: "";
+		z-index: 1;
+		display: block;
+	}
+	header nav ul li {
+		margin: 0;
+		display: block;
+		text-align: left;
+	}
+	header nav ul li a {
+		color: #89b713;
+		display: block;
+		padding: 10px 10px 10px 30px; 
+	}
+	header nav ul li ul {
+		width: 100%;
+		padding: 15px 0;
+		margin-bottom: 10px;
+		position: relative;
+		left: 0px;
+		top: auto;
+		margin-top: 10px;
+		max-height: none;
+		overflow: visible;
+	}
+	header nav ul li ul:before {
+		left: 25%
+	}
+	header nav ul li ul:after {
+		display: none;
+	}
+	header nav ul li ul li {
+		width: auto;
+		margin: 0;
+	}
+	header nav ul li ul li a {
+		color: #fff;
+	}
+	#foo_in h3 {
+		margin-bottom: 15px;
+	}
+	#foo_in #foo_menu {
+		width: 65%;
+	}
+	#foo_in #foo_menu section, #foo_in #foo_menu section + section, #foo_in #foo_menu section + section + section {
+		width: 45%;
+	}
+	#foo_in #foo_menu section + section + section {
+		width: 90%;
+	}
+	#foo_in #foo_menu ul li {
+		margin-bottom: 7px;
+	}
+	#pre_foo {
+		height: 450px;
+	}
+	
+	footer {
+		height: 450px;
+	}
+	.main_section > div {
+		width: auto;
+	}
+	#main_form p {
+		width: 80%;
+		margin: 0 auto 22px;
+	}
+	input, textarea, select {
+		width: 80%;
+	}
+	form textarea {
+		min-width: 80%;
+		max-width: 80%;
+	}
+	#about {
+		background-position: -300px center;
+	}
+	#about>div {
+		width: 80%;
+		left: 0;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 130px;
+	}
+	#about h2:before, #about h2:after {
+		display: none;
+	}
+	#about p {
+		padding: 0 130px 11px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	#foo_in #foo_menu {
+		display: none;
+	}
+	#pre_foo {
+		height: 200px;
+	}
+	
+	footer {
+		height: 200px;
+	}
+	#foo_in #foo_cont {
+		float: right;
+		margin-right: 10px;
+		padding-top: 15px;
+		margin-bottom: 15px;
+		width: 42%;
+		text-align: right;
+	}
+	#foo_in #foo_cont strong {
+		margin-bottom: 20px;
+	}
+	#foo_logo {
+		float: left;
+		width: 200px;
+		margin-bottom: 20px
+	}
+	
+	#dw {
+		margin-right: 10px;
+		clear: left;
+		float: none;
+		margin-bottom: 20px;
+		width: auto;
+		text-align: left;
+		margin-right: 10px;
+	}
+	p#copy {
+		clear: left;
+		margin-bottom: 25px;
+		margin-right: 20px;
+	}
+	#about p {
+		padding: 0 80px 11px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	header#header {
+		min-height: 80px;
+	}
+	#header>div {
+		font-size: 0.9em;
+		line-height: 120%;
+	}
+	#logo {
+		width: 150px;
+		margin-right: 5px;
+	}
+	#headr_cont  {
+		margin-left: 7%;
+		margin-top: 18px
+	}
+	header nav {
+		width: 25px;
+		height: 15px;
+		border-bottom: 5px solid #fff;
+		border-top: 5px solid #fff;
+		margin: 13px 10px 0 10px;
+	}
+	header nav:after {
+		width: 25px;
+		height: 5px;
+		top: 5px;
+	}
+	header nav>ul {
+		margin-top: 39px;
+	}
+	header nav:before {
+		top: 20px;
+	}
+	#pre_foo {
+		height: 220px;
+	}
+	
+	footer {
+		height: 220px;
+	}
+	#foo_in #foo_cont {
+		float: none;
+		width: auto;
+		text-align: left;
+	}
+	#foo_in #foo_cont strong {
+		text-align: right;
+		display: block;
+	}
+	#dw {
+		text-align: right;
+		clear: none;
+	}
+	.main_section h2 {
+		font-size: 1.7em;
+	}
+	.main_section p {
+		font-size: 0.85em;
+	}
+	#about p {
+		padding: 0 50px 11px;
+	}
+}
+
+
+@media screen and (max-width: 470px) {
+	#pre_foo {
+		height: 250px;
+	}
+	
+	footer {
+		height: 250px;
+	}
+	#dw {
+		clear: left;
+	}
+	#about p {
+		padding: 0 20px 11px;
+	}
+}
+
+
+@media screen and (max-width: 400px) {
+	header#header {
+		min-height: 60px;
+		min-width: 300px
+	}
+	#header>div {
+		font-size: 0.9em;
+		line-height: 120%;
+	}
+	#logo {
+		width: 120px;
+		margin-right: 5px;
+	}
+	#headr_cont  {
+		margin-left: 10px;
+		margin-top: 13px;
+		font-size: 1.05em;
+		line-height: 120%;
+	}
+	header nav {
+		margin: 8px 0px 0 5px;
+	}
+	#foo_logo {
+		width: 140px;
+	}
+	#foo_in #foo_cont {
+		margin-bottom: 0px;
+		margin-right: 10px;
+		padding-top: 10px;
+	}
+	#dw {
+		text-align: right;
+		clear: left;
+	}
+	.main_section h2 {
+		font-size: 1.7em;
+	}
+	.main_section p {
+		font-size: 0.85em;
+	}
+	#main_form p {
+		width: 90%;
+		margin-bottom: 12px;
+	}
+	input, textarea, select {
+		width: 90%;
+	}
+	form textarea {
+		min-width: 90%;
+		max-width: 90%;
+	}
+	
+	#about>div {
+		margin-top: 100px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

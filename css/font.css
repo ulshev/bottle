@@ -1,0 +1,146 @@
+
+@font-face{
+   font-family: 'Gotham Pro';
+    src: url('../fonts/gothaproreg.eot');
+    src: local('Gotham Pro'),
+    url('../fonts/gothaproreg.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothaproreg.woff') format('woff'),
+    url('../fonts/gothaproreg.ttf') format('truetype'),
+    url('../fonts/gothaproreg.svg#myfont') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+   font-family: 'Gotham Pro';
+    src: url('../fonts/gothaproita.eot');
+    src: local('Gotham Pro'),
+    url('../fonts/gothaproita.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothaproita.woff') format('woff'),
+    url('../fonts/gothaproita.ttf') format('truetype'),
+    url('../fonts/gothaproita.svg#myfont') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face{
+   font-family: 'Gotham Pro Narrow';
+    src: url('../fonts/gothapronarmed.eot');
+    src: local('Gotham Pro Narrow'),
+    url('../fonts/gothapronarmed.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothapronarmed.woff') format('woff'),
+    url('../fonts/gothapronarmed.ttf') format('truetype'),
+    url('../fonts/gothapronarmed.svg#myfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+   font-family: 'Gotham Pro Narrow';
+    src: url('../fonts/gothapronarbol.eot');
+    src: local('Gotham Pro Narrow'),
+    url('../fonts/gothapronarbol.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothapronarbol.woff') format('woff'),
+    url('../fonts/gothapronarbol.ttf') format('truetype'),
+    url('../fonts/gothapronarbol.svg#myfont') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+   font-family: 'Gotham Pro';
+    src: url('../fonts/gothapromed.eot');
+    src: local('Gotham Pro'),
+    url('../fonts/gothapromed.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothapromed.woff') format('woff'),
+    url('../fonts/gothapromed.ttf') format('truetype'),
+    url('../fonts/gothapromed.svg#myfont') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face{
+   font-family: 'Gotham Pro';
+    src: url('../fonts/gothapromedita.eot');
+    src: local('Gotham Pro'),
+    url('../fonts/gothapromedita.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothapromedita.woff') format('woff'),
+    url('../fonts/gothapromedita.ttf') format('truetype'),
+    url('../fonts/gothapromedita.svg#myfont') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face{
+   font-family: 'Gotham Pro';
+    src: url('../fonts/gothaprolig.eot');
+    src: local('Gotham Pro'),
+    url('../fonts/gothaprolig.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothaprolig.woff') format('woff'),
+    url('../fonts/gothaprolig.ttf') format('truetype'),
+    url('../fonts/gothaprolig.svg#myfont') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{
+   font-family: 'Gotham Pro';
+    src: url('../fonts/gothaproligita.eot');
+    src: local('Gotham Pro'),
+    url('../fonts/gothaproligita.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothaproligita.woff') format('woff'),
+    url('../fonts/gothaproligita.ttf') format('truetype'),
+    url('../fonts/gothaproligita.svg#myfont') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face{
+   font-family: 'Gotham Pro';
+    src: url('../fonts/gothaprobol.eot');
+    src: local('Gotham Pro'),
+    url('../fonts/gothaprobol.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothaprobol.woff') format('woff'),
+    url('../fonts/gothaprobol.ttf') format('truetype'),
+    url('../fonts/gothaprobol.svg#myfont') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+   font-family: 'Gotham Pro';
+    src: url('../fonts/gothaprobolita.eot');
+    src: local('Gotham Pro'),
+    url('../fonts/gothaprobolita.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothaprobolita.woff') format('woff'),
+    url('../fonts/gothaprobolita.ttf') format('truetype'),
+    url('../fonts/gothaprobolita.svg#myfont') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face{
+   font-family: 'Gotham Pro';
+    src: url('../fonts/gothaprobla.eot');
+    src: local('Gotham Pro'),
+    url('../fonts/gothaprobla.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothaprobla.woff') format('woff'),
+    url('../fonts/gothaprobla.ttf') format('truetype'),
+    url('../fonts/gothaprobla.svg#myfont') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face{
+   font-family: 'Gotham Pro';
+    src: url('../fonts/gothaproblaita.eot');
+    src: local('Gotham Pro'),
+    url('../fonts/gothaproblaita.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothaproblaita.woff') format('woff'),
+    url('../fonts/gothaproblaita.ttf') format('truetype'),
+    url('../fonts/gothaproblaita.svg#myfont') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+
