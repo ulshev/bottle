@@ -1,3 +1,168 @@
+/* Наша продукция на главной */
+
+#products {
+	background: #fff url(../images/product_bg.jpg) 47.8% 137px no-repeat;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+#products>p {
+	text-align: center;
+	font-size: 0.93em;
+	letter-spacing: 1px;
+	font-weight: 400
+}
+#products>p a {
+	color: #222222;
+}
+
+#products .karusel_1 {
+	height: 540px;
+	padding: 0;
+}
+#products .karusel_1 .slide {
+	padding: 0 10px;
+	width: 300px;
+	background: url(../images/plashka.jpg) center 135px no-repeat;
+	height: 540px;
+}
+#products .karusel_1 .slide div {
+	margin: 235px 35px 0;
+	padding: 150px 20px 0;
+	width: 190px;
+	height: 120px;
+	background: #fff;
+	box-shadow: 0px 0 5px rgba(0, 0, 0, 0.65);
+	position: relative;
+}
+
+#products .karusel_1 .slide div>span {
+	position: absolute;
+	bottom: 140px;
+	width: 100%;
+	left:0;
+}
+#products .karusel_1 .slide div span img {
+	height: 314px;
+}
+#products .karusel_1 .slide:hover div img {
+	height: 364px;
+}
+#products .karusel_1 .slide div h3 {
+	text-transform: none;
+	font-weight: 300;
+	font-size: 0.95em;
+	margin-bottom: 5px;
+}
+#products .karusel_1 .slide div p {
+	font-weight: 600;
+	height: 52px;
+}
+#products .karusel_1 .slide div a.button {
+	background-color: #7e0028;
+	width: 115px;
+	border-radius: 3px
+}
+#products .karusel_1 .slide div a.button:hover {
+	background-color: #650020;
+}
+.controls {
+	position: relative;
+	display: block;
+	height: 1px;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+.prevBtn, .nextBtn {
+	position: absolute;
+	top: 0%;
+	width: 37px;
+	height: 37px;
+	margin-top: -273px;
+	z-index: 5;
+	text-indent: -10000px;
+	overflow: hidden;
+	border: 1px solid #89b713;
+	border-radius: 3px;
+}
+ .prevBtn {
+	margin-left: -48.4%;
+	left: 50%;
+	background: url(../images/arr_left2.png)  50%center no-repeat;
+}
+.prevBtn:hover {
+	background-image: url(../images/arr_left2_hover.png);
+	background-color: #89b713;
+}
+ .nextBtn {
+	margin-right: -48.4%;
+	right:50%;
+	background:  url(../images/arr_right2.png) 50% center no-repeat;
+}
+.nextBtn:hover {
+	background-image: url(../images/arr_right2_hover.png);
+	background-color: #89b713;
+}
+
+
+
+/* Секция партнеры на главной */
+
+#partners {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 30px;
+	padding-top: 45px
+}
+#partners.main_section>div:first-child {
+	padding: 36px 10px 0px;
+	width: 930px;
+}
+#partners>p {
+	text-align: center;
+	font-size: 0.93em;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+#partners>p a {
+	color: #89b713;
+}
+#partners .text h2 {
+	margin-bottom: 20px
+}
+#partners .text p {
+	letter-spacing: 0.01em;
+}
+#partners .karusel_2 {
+	height: 200px;
+	padding: 0 0 20px;
+}
+#partners .karusel_2 .slide {
+	width: 176px;
+	height: 176px;
+	margin: 9px !important;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.22);
+	border-radius: 3px;
+	background-color: #fff;
+}
+
+#partners .karusel_2 .slide a {
+	display: block;
+	width: 176px;
+	height: 176px;
+	line-height: 176px;
+}
+#partners .karusel_2 .slide  img {
+	vertical-align: middle;
+	max-width: 100%;
+	max-height: 100%;
+}
+#partners .prevBtn, #partners .nextBtn {
+	margin-top: -138px;
+}
+
+
+
 
 /* Главный слайдер */
 
@@ -93,6 +258,7 @@
 	border-radius: 35px;
 	text-indent: -10000px;
 	overflow: hidden;
+        border: 0;
 }
 #slider .prevBtn {
 	margin-left: -40%;
@@ -138,4 +304,7 @@
 	border-radius: 7px;
 	text-indent: -100px;
 }
+
+
+
 

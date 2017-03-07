@@ -6,8 +6,8 @@ function tweakSlider() {
 	    $(".karusel_1").sudoSlider({
 		touch: true,
 		mouseTouch: true,
-		customLink:'.customLink1',
 		prevNext:false,
+		customLink:'.customLink1',
 		slideCount: 3,
 		continuous: true,
 		responsive: false,
@@ -18,8 +18,8 @@ function tweakSlider() {
 		$(".karusel_2").sudoSlider({
 		    touch: true,
 		    mouseTouch: true,
-		    customLink:'.customLink1',
 		    prevNext:false,
+		    customLink:'.customLink2',
 		    slideCount: 6,
 		    continuous: true,
 		       responsive: false,
@@ -29,8 +29,8 @@ function tweakSlider() {
 		$(".karusel_2").sudoSlider({
 		    touch: true,
 		    mouseTouch: true,
-		    customLink:'.customLink2',
 		    prevNext:false,
+		    customLink:'.customLink2',
 		    slideCount: 4,
 		    continuous: true,
 		       responsive: false,
@@ -45,8 +45,8 @@ function tweakSlider() {
 		$(".karusel_1").sudoSlider({
 		    touch: true,
 		    mouseTouch: true,
-		    customLink:'.customLink1',
 		    prevNext:false,
+		    customLink:'.customLink1',
 		    slideCount: 2,
 		    continuous: true,
 		    responsive: false,
@@ -55,8 +55,8 @@ function tweakSlider() {
 		$(".karusel_2").sudoSlider({
 		    touch: true,
 		    mouseTouch: true,
-		    customLink:'.customLink1',
 		    prevNext:false,
+		    customLink:'.customLink2',
 		    slideCount: 3,
 		    continuous: true,
 		       responsive: false,
@@ -65,8 +65,8 @@ function tweakSlider() {
 		$(".karusel_1").sudoSlider({
 		    touch: true,
 		    mouseTouch: true,
-		    customLink:'.customLink2',
 		    prevNext:false,
+		    customLink:'.customLink1',
 		    slideCount: 1,
 		    continuous: true,
 		    responsive: false,
@@ -75,8 +75,8 @@ function tweakSlider() {
 		$(".karusel_2").sudoSlider({
 		    touch: true,
 		    mouseTouch: true,
-		    customLink:'.customLink2',
 		    prevNext:false,
+		    customLink:'.customLink2',
 		    slideCount: 1,
 		    continuous: true,
 		       responsive: false,
@@ -131,7 +131,7 @@ $(document).ready(function() {
          numeric: true,
 	 effect: "fadeOutIn",
          pause: 3000,
-         auto:true,
+         //auto:true,
     });
      
     tweakSlider();
