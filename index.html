@@ -29,10 +29,10 @@
 			(81741) 46-306
 		</div>
 		<nav>
-			<ul>
+			<ul class="main_menu">
 				<li><a href="#" title="Главная страница">Главная</a></li>
-				<li><a href="#" title="Раздел о компании">О компании</a>
-					<ul>
+				<li><a class="a_about" href="#" title="Раздел о компании">О компании</a>
+					<ul class="menu_about">
 						<li><a href="#" title="История завода">История завода</a></li>
 						<li><a href="#" title="Преимущества">Преимущества</a></li>
 						<li><a href="#" title="Сертификаты">Сертификаты</a></li>
@@ -41,8 +41,8 @@
 						<li><a href="#" title="Карьера">Карьера</a></li>
 					</ul>
 				</li>
-				<li><a href="#" title="Производство">Производство</a>
-					<ul>
+				<li><a class="a_production" href="#" title="Производство">Производство</a>
+					<ul class="menu_production">
 						<li><a href="#" title="О производстве стекла">О производстве стекла</a></li>
 						<li><a href="#" title="Составной цех">Составной цех</a></li>
 						<li><a href="#" title="Производственный цех">Производственный цех</a></li>
@@ -53,8 +53,8 @@
 					</ul>
 				</li>             
 				<li><a href="#" title="Преимущества">Преимущества</a></li>
-				<li><a href="#" title="Продукция">Продукция</a>
-					<ul>
+				<li><a class="a_product" href="#" title="Продукция">Продукция</a>
+					<ul class="menu_product">
 						<li><a href="#" title="Бутылки стеклянные для вина и винных напитков">Бутылки стеклянные для вина и винных напитков</a></li>
 						<li><a href="#" title="Бутылки стеклянные для игристых вин">Бутылки стеклянные для игристых вин</a></li>
 						<li><a href="#" title="Бутылки стеклянные для ликеро-водочных изделий">Бутылки стеклянные для ликеро-водочных изделий</a></li>
@@ -64,6 +64,7 @@
 				</li>
 				<li><a href="#" title="Контакты">Контакты</a></li>
 			</ul>
+			<span class="menu_batton_mob"></span>
 		</nav>
 	    </div>
 	</header>
@@ -107,8 +108,50 @@
 		</div>
 	</section>
 	
-	<section class="main_section" id="">
-		<img src="images/karusel1.jpg" alt="Северная Стекольная Компания" style="position: relative; left: 50%; margin-left: -960px;" />
+	<section class="main_section" id="products">
+		<div class="text">
+			<h2>наша Продукция</h2>
+			<p>Основной продукцией ООО&nbsp;«Северная стеклотарная компания» являются стеклянные бутылки из&nbsp;оливкового и&nbsp;зелёного стекла вместимостью от&nbsp;0,2&nbsp;до&nbsp;1,5&nbsp;л. </p>
+		</div>
+		<div class="karusel_1">
+			<div>
+			    <div>
+				<span><img src="images/b2.png" alt="" /></span>
+				<h3>Бутылки стеклянные</h3>
+				<p>для&nbsp; шампанских и&nbsp;игристых вин</p>
+				<a class="button" href="#" title="Узнать подробнее">Подробнее</a>
+			    </div>
+			</div>
+			<div>
+			    <div>
+				<span><img src="images/b1.png" alt="" /></span>
+				<h3>Бутылки стеклянные</h3>
+				<p>для&nbsp;газированных напитков и&nbsp;соков</p>
+				<a class="button" href="#" title="Узнать подробнее">Подробнее</a>
+			    </div>
+			</div>
+			<div>
+			    <div>
+				<span><img src="images/b3.png" alt="" /></span>
+				<h3>Бутылки стеклянные </h3>
+				<p>для&nbsp;вина и&nbsp;винных напитков</p>
+				<a class="button" href="#" title="Узнать подробнее">Подробнее</a>
+			    </div>
+			</div>
+			<div>
+			    <div>
+				<span><img src="images/b1.png" alt="" /></span>
+				<h3>Бутылки стеклянные</h3>
+				<p>для&nbsp;ликеро-водочных изделий</p>
+				<a class="button" href="#" title="Узнать подробнее">Подробнее</a>
+			    </div>
+			</div>
+		</div>
+		<span class="controls">
+			<a class="customLink1 prevBtn" data-target="prev" href="#"> prev </a>
+			<a class="customLink1 nextBtn" data-target="last" href="#"> next </a>
+		</span>
+		<p><a href="#">Вся продукция</a></p>
 	</section>
 	
 	<section class="main_section" id="about">
@@ -119,8 +162,42 @@
 		</div>
 	</section>
 	
-	<section class="main_section" id="">
-		<img src="images/karusel2.jpg" alt="Северная Стекольная Компания" style="position: relative; left: 50%; margin-left: -960px;" />
+	<section class="main_section" id="partners">
+		<div class="text">
+			<h2>Партнеры</h2>
+			<p>С нами сотрудничают предприятия России, Казахстана, Молдовы, Эстонии, Беларуси, Таджикистана, Азербайджана</p>
+		</div>
+		<div class="karusel_2">
+			<div>
+				<a href="#"><img src="images/l1.png" alt="Московский комбинат шампанских вин" /></a>
+			</div>
+			<div>
+				<a href="#"><img src="images/l2.png" alt="Ариант" /></a>
+			</div>
+			<div>
+				<a href="#"><img src="images/l3.png" alt="ВИЛАШ группа компаний" /></a>
+			</div>
+			<div>
+				<a href="#"><img src="images/l4.png" alt="Ростовский комбинат шампанских вин" /></a>
+			</div>
+			<div>
+				<a href="#"><img src="images/l1.png" alt="Московский комбинат шампанских вин" /></a>
+			</div>
+			<div>
+				<a href="#"><img src="images/l2.png" alt="Ариант" /></a>
+			</div>
+			<div>
+				<a href="#"><img src="images/l3.png" alt="ВИЛАШ группа компаний" /></a>
+			</div>
+			<div>
+				<a href="#"><img src="images/l4.png" alt="Ростовский комбинат шампанских вин" /></a>
+			</div>
+		</div>
+		<span class="controls">
+			<a class="customLink2 prevBtn" data-target="prev" href="#"> prev </a>
+			<a class="customLink2 nextBtn" data-target="last" href="#"> next </a>
+		</span>
+		<p><a href="#">Все партнеры</a></p>
 	</section>
 	
 	<section class="main_section" id="main_form">
@@ -147,29 +224,7 @@
 	<div id="content">
 	
 		<div class="text">
-			<h1>H1 - Проектирование, генеральный подрядчик, строительно-монтажные работы, инженерные сети, изготовление металлоконструкций</h1>
-			<h2>H2 - Полный комплекс работ при возведении строительных объектов и зданий</h2>
-			<h3>H3 - Полный комплекс работ при возведении строительных объектов и зданий</h3>
-			<img class="left" src="images/pic7.jpg" alt="" />
-			<p>Помимо производства металлоконструкций, а также быстровозводимых зданий, ведущим направлением работы предприятия является проведение капитального ремонта и реконструкции объектов промышленного и административного назначения, строительство складских, спортивных и торговых комплексов, административных и общественных зданий, производственных цехов. Собственное производство легких металлоконструкций и изготовление комплектующих для объектов строительства позволяет нам предлагать конкурентные цены на проектирование, изготовление и последующие строительно-монтажные работы.  <a href="#">Подробнее >></a></p>
 			
-			<h2>Ненумерованный список:</h2>
-			<ul>
-				<li><a href="#">Функция технического заказчика</a></li>
-				<li><a href="#">Проектирование зданий и сооружений</a></li>
-				<li><a href="#">Функция генерального подрядчика</a></li>
-				<li><a href="#">Строительство монолитных зданий</a></li>
-			</ul>
-			
-			<h2>Нумерованный список:</h2>
-			<ol>
-				<li><a href="#">Функция технического заказчика</a></li>
-				<li><a href="#">Проектирование зданий и сооружений</a></li>
-				<li><a href="#">Функция генерального подрядчика</a></li>
-				<li><a href="#">Строительство монолитных зданий</a></li>
-			</ol>
-			
-			<p><a style="margin: 0 10px;" href="#">Обычная ссылка</a> <a style="margin: 0 28px;" href="#">Ссылка при наведении</a></p>
 			
 			
 		</div>

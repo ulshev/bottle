@@ -81,6 +81,14 @@
 	}
 }
 
+@media screen and (min-width: 1800px) {
+	
+	#slider .sudo-box div {
+		left: 50% !important;
+		margin-left: -900px !important;
+	}
+}
+
 @media screen and (max-width: 1300px) {
 	#header>div {
 		max-width: 980px;
@@ -185,9 +193,6 @@
 	header nav>ul {
 		display: none;
 	}
-	header nav:hover>ul {
-		display: block;
-	}
 	header nav:before {
 		width: 55px;
 		height: 20px;
@@ -219,6 +224,14 @@
 		margin-top: 10px;
 		max-height: none;
 		overflow: visible;
+		display: none;
+	}
+	header nav ul li ul.menu_product {
+		width: 100%;
+		left: 0px;
+	}
+	header nav ul li:hover ul {
+		display: none;
 	}
 	header nav ul li ul:before {
 		left: 25%
@@ -255,9 +268,10 @@
 	footer {
 		height: 450px;
 	}
-	.main_section > div {
+	.main_section > div, #partners.main_section > div:first-child {
 		width: auto;
 	}
+	
 	#main_form p {
 		width: 80%;
 		margin: 0 auto 22px;
