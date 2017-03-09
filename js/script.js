@@ -131,7 +131,7 @@ $(document).ready(function() {
          numeric: true,
 	 effect: "fadeOutIn",
          pause: 3000,
-         //auto:true,
+         auto:true,
     });
      
     tweakSlider();

@@ -35,16 +35,16 @@ p {
 	margin: 0 0 22px;
 }
 h1 {    
-	margin: 0 0 11px;
+	margin: 0 0 35px;
 	font-size: 2em;
 	font-weight: 700;
-	line-height: 120%;
+	line-height: 145%;
 	text-transform: uppercase;
 }
 
 h2 {
 	font-size: 1.66em;
-	line-height: 120%;
+	line-height: 145%;
 	font-weight: 700;
 	margin: 0 0 23px;
 	text-transform: uppercase;
@@ -56,6 +56,9 @@ h3 {
 	font-weight: 700;
 	margin: 0 0 20px;
 	text-transform: uppercase;
+}
+strong {
+	font-weight: 600;
 }
 table {
 	border: 0;
@@ -91,8 +94,8 @@ footer, header, hgroup, menu, nav, section {
 	position: relative;
 	overflow: hidden;
 	
-background: url(../images/site.jpg) center top no-repeat;
-zbackground-size: 100% auto;
+/*background: url(../images/site.jpg) center top no-repeat;
+zbackground-size: 100% auto;*/
 }
 
 
@@ -154,6 +157,8 @@ header nav ul li {
 header nav ul li a {
 	color: #fff;
 	text-decoration: none;
+	position: relative;
+	z-index: 2;
 }                    
 header nav ul li.active a {
 	color: #89b713;
@@ -249,7 +254,7 @@ header span.menu_batton_mob {
 }
 
 a.button {
-	padding:13px 15px 14px; 
+	padding:14px 15px 14px; 
 	width: 166px;
 	height: 19px;
 	font-size: 14px;
@@ -276,9 +281,6 @@ a.button:active {
 	font-weight: 400;
 	letter-spacing: -0.05em;
 }
-
-
-
 
 
 /* Секция о компании на главной */
@@ -337,29 +339,6 @@ a.button:active {
 }
 
 
-
-
-
-
-
-
-#content {
-	margin: 0 auto;
-	padding: 20px 10px;
-	
-	width: 960px;
-	
-	clear: both;
-}
-
-
-
-
-/* Стили контента */
-
-
-
-
 /* Стили формы */
 
 #main_form {
@@ -393,10 +372,11 @@ input, textarea, select {
 }
 
 form textarea {
-	height: 90px;
+	height: 70px;
+	padding: 15px 15px;
 	min-width: 750px;
 	max-width: 750px;
-	min-height: 90px;
+	min-height: 70px;
 	max-height: 150px;
 	line-height: 140%;
 	margin-bottom: 31px;
@@ -426,10 +406,6 @@ form input[type="submit"]:active {
 
 
 /* Подвал */
-/*#slider, #content {
-	display: none;
-}*/
-
 #pre_foo {
 	height: 350px;
 	clear: both;
@@ -532,6 +508,303 @@ p#copy {
 	float: right;
 	width: 31.7%;
 	margin-top: -9px;
+}
+
+
+/* Внутренние страницы */
+
+.bread_crumbs { 
+	margin: 100px auto 20px;
+	padding: 10px 10px 10px;
+	max-width: 1250px;
+	line-height: 140%;
+	font-size: 0.87em;
+	background-color: #f4f4f4;
+	position: relative;
+	height: 20px;
+}
+.bread_crumbs:before, .bread_crumbs:after { 
+	position: absolute;
+	top: 0;
+	height: 40px;
+	width: 200%;
+	content: "";
+	background-color: #f4f4f4;
+}
+.bread_crumbs:before { 
+	left: -200%;
+}
+.bread_crumbs:after { 
+	right: -200%;
+}
+.bread_crumbs a, .bread_crumbs span  { 
+	margin: 0 5px;
+	color: #666;
+}
+.bread_crumbs a:first-child  { 
+	margin: 0 5px 0 0;
+}
+
+
+/* Раздел о компании */
+
+.content {
+    clear: both;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content .text {
+	margin: 0 auto;
+	padding: 35px 10px;
+	max-width: 1250px;
+	position: relative;
+}
+.content h3 {
+    text-transform: none;
+    font-size: 1.66em;
+}
+.content .text p {
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 165%;
+    margin-bottom: 35px;
+}
+.content .text ul {
+    margin-bottom: 15px;
+}
+.content .text ul li {
+    padding-left: 17px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.content .text ul li:before {
+    content: "";
+    height: 5px;
+    width: 5px;
+    background-color: #9b0024;
+    position: absolute;
+    left: 1px;
+    top: 8px;
+}
+
+a.button {
+	width: 120px;
+}
+
+.about.content {
+	background: url(../images/big_bottle.jpg) right center no-repeat;
+	background-size: 41.67% auto;
+	
+}
+
+.about.content .text {
+	padding-right: 550px;
+	max-width: 700px;
+	
+}
+
+.history.content {
+	background-image: url(../images/content_history.jpg);
+	color: #fff;
+}
+
+.history.content .text {
+	padding-right: 360px;
+	padding-top: 110px;
+	padding-bottom: 90px;
+	max-width: 880px;
+}
+.history.content .text p {
+	padding-bottom: 25px;
+}
+
+
+.foto_left.content, .foto_right.content {
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+}
+.foto_left.content>img, .foto_right.content>img {
+	height: 100%;
+	position: absolute;
+	right: 50%;
+}
+
+.foto_right.content>img {
+	left: 50%;
+	right: auto;
+}
+
+.foto_left.content .text, .foto_right.content .text {
+	padding-top: 65px;
+	position: relative;
+	z-index: 2;
+}
+.foto_left.content .text {
+	padding-left: 700px;
+	max-width: 565px;
+}
+.foto_right.content .text {
+	padding-right: 700px;
+	max-width: 565px;
+}
+.foto_left.content h2, .foto_right.content h2 {
+	margin-bottom: 35px;
+}
+.foto_left.content p, .foto_right.content p {
+	margin-bottom: 35px;
+}
+.content img.sert {
+	float: left;
+	margin-right: 3.4%;
+}
+
+
+.advantage.content {
+	background-image: url(../images/content_advantage.jpg);
+	color: #fff;
+}
+.advantage.content .text {
+	padding-top: 85px;
+	padding-bottom: 75px;
+	max-width: 1280px;
+	text-align: center;
+}
+.advantage.content .text h2 {
+	margin-bottom: 45px;
+}
+.advantage.content .text p.adv {
+	display: inline-block;
+	width: 28%;
+	vertical-align: top;
+	margin: 0 2.5% 55px;
+	padding-top: 60px;
+	background: url(../images/icon1.png) center top no-repeat;
+	font-size: 0.93em;
+}
+.advantage.content .text p.adv + p.adv {
+	width: 29%;
+	background-image: url(../images/icon2.png);
+}
+.advantage.content .text p.adv + p.adv + p.adv {
+	width: 26%;
+	background-image: url(../images/icon3.png);
+}
+
+
+
+.about_production.content {
+	background-image: url(../images/about_production.jpg);
+	color: #fff;
+	padding-top: 115px;
+	padding-bottom: 90px;
+}
+.foto_right.content.text_both .text {
+	padding-top: 140px;
+}
+.foto_right.content.text_both div.text + div.text {
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	width: 50%;
+	max-width: none;
+	top: 0;
+	background: url(../images/production_foto1.jpg) center center no-repeat;
+	background-size: cover;
+	padding-right: 0;
+	color: #fff;
+}
+.foto_right.content.text_both div.text + div.text>* {
+	margin-left: 70px;
+	max-width: 560px;
+}
+.four_text {
+	background-color: #f5f5f5;
+	height: 500px;
+	overflow: hidden;
+}
+.four_text:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+.four_text .text {
+	width: 16.24%;
+	padding: 100px 4.38% 20px;
+	float: left;
+	height: 390px;
+	background-color: #f5f5f5;
+}
+.four_text .text + .text {
+	background: url(../images/production_foto2.jpg) center center no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+.four_text .text + .text + .text {
+	background-image: none;
+	color: #222222;
+}
+.four_text .text + .text + .text + .text {
+	background-image: url(../images/production_foto3.jpg);
+	color: #fff;
+}
+
+.cont {
+	width: 23%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 1.58%;
+}
+.cont {
+	background: url(../images/cont_icon1.png) left 20px no-repeat;
+}
+.cont + .cont {
+	background-image: url(../images/cont_icon2.png);
+}
+.cont + .cont + .cont {
+	background-image: url(../images/cont_icon3.png);
+}
+.cont + .cont + .cont + .cont {
+	background-image: url(../images/cont_icon4.png);
+}
+.cont:last-child {
+	margin-right: 0;
+}
+.cont>* {
+	margin-left: 37px;
+}
+.content .cont h4 {
+	text-transform: uppercase;
+}
+.content .cont p {
+	margin-bottom: 25px;
+}
+
+#form.content {
+	text-align: center;
+}
+
+#form.content input, #form.content textarea, #form.content select {
+	width: 100%;
+	border: 1px solid #eee;
+	background-color: transparent;
+	color: #555;
+}
+#form.content textarea {
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+}
+#form.content form input[type="submit"] {
+	width: 180px;
+	border: 1px solid #89b713;
+	color: #89b713;
+}
+
+#form.content form input[type="submit"]:hover {
+	background-color: #89b713;
+	color: #fff;
 }
 
 
