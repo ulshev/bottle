@@ -271,6 +271,23 @@
 	.cont {
 		font-size: 0.93em;
 	}
+	
+	.left_indent.content {
+		max-width: 1000px;
+	}
+	.left_indent.content aside.left {
+		margin-left: 10px;
+	}
+	.product_info>div {
+		width: 30%;
+	}
+	.product_info>div.info  {
+		padding-top: 150px;
+		width: 40%;
+	}
+	.product_info>div img {
+		height: 600px;
+	}
 }
 
 @media screen and (max-width: 990px) {
@@ -374,7 +391,7 @@
 		width: auto;
 		margin: 0;
 	}
-	header nav ul li ul li a {
+	header nav ul li ul li a, header nav ul li.active ul li a {
 		color: #fff;
 	}
 	#foo_in h3 {
@@ -414,9 +431,9 @@
 		min-width: 80%;
 		max-width: 80%;
 	}
-	#about {
+	/*#about {
 		background-position: -300px center;
-	}
+	}*/
 	#about>div {
 		width: 80%;
 		left: 0;
@@ -501,6 +518,24 @@
 		width: 39%;
 		margin-right: 5%;
 	}
+	
+	.left_indent.content aside.left {
+		display: none;
+	}
+	.left_indent.content .text, .content .catalog {
+		margin-left: 0;
+	}
+	.product_info>div {
+		width: 25%;
+	}
+	.product_info>div.info  {
+		padding-top: 50px;
+		width: 42%;
+	}
+	.product_info>div img {
+		height: 500px;
+	}
+	
 	
 }
 
@@ -679,6 +714,28 @@
 	.four_text .text {
 		padding: 40px 5.5% 1px;
 	}
+	.catalog .item {
+		height: 415px;
+	}
+	.catalog .item>a {
+		height: 250px;
+	}
+	.catalog .item img {
+		height: 250px
+	}
+	.product_info>div {
+		width: 30%;
+	}
+	.product_info>div.info  {
+		padding-top: 50px;
+		width: 35%;
+	}
+	.product_info>div.info p {
+		background-position: 120% 10px;
+		padding-right: 55px;
+		margin-bottom: 20px;
+	}
+		
 }
 
 @media screen and (max-width: 599px) {
@@ -773,6 +830,34 @@
 		float: none;
 	}
 	
+	.catalog .item {
+		width: 48%;
+	}
+	.product_info>div {
+		width: 48%;
+	}
+	.product_info>div img {
+		height: 300px
+	}
+	.product_info>div.info  {
+		padding-top: 30px;
+		width: 100%;
+	}
+	.product_info>div.info p {
+		padding: 0;
+		background: none;
+		display: inline-block;
+		margin-right: 30px;
+	}
+	.product_info>div {
+		margin-bottom: 10px;
+	}
+	
+	.product_info {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	
 }
 
 
@@ -837,6 +922,10 @@
 	}
 	.content .cont p {
 		margin-bottom: 10px
+	}
+	
+	.catalog .item {
+		width: 100%;
 	}
 }
 
