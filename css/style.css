@@ -342,7 +342,7 @@ a.button:active {
 /* Стили формы */
 
 #main_form {
-	background: url(../images/form.jpg) center top no-repeat;
+	background: #40332c url(../images/form.jpg) center top no-repeat;
 	background-size: cover;
 	height: 550px;
 	z-index: 1;
@@ -790,6 +790,11 @@ p#copy {
 	color: #fff;
 }
 
+.content.map {
+	background-color: #e5e3df;
+	height: 400px;
+}
+
 .cont {
 	width: 23%;
 	display: inline-block;
@@ -1021,7 +1026,7 @@ p#copy {
 
 .sections_products {
 	min-height: 820px;
-	background: url(../images/sections_products.jpg) center top no-repeat;
+	background: #d5d7d8 url(../images/sections_products.jpg) center top no-repeat;
 	background-size: cover;
 }
 .sections_products .sections {

@@ -174,7 +174,7 @@
 	margin: 0 auto;
 	overflow: hidden;
 	position: relative;
-	background: url(../images/slider_bg.jpg) center 70% no-repeat;
+	background: #060a11 url(../images/slider_bg.jpg) center 70% no-repeat;
 	background-size: cover;
 	height: 1025px;
 } 
