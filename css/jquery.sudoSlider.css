@@ -44,8 +44,12 @@
 }
 #products .karusel_1 .slide div span img {
 	height: 314px;
+        -webkit-transition: height 0.3s ease-out 0.1s;
+	-moz-transition: height 0.3s ease-out 0.1s;
+	-o-transition: height 0.3s ease-out 0.1s;
+	transition: height 0.3s ease-out 0.1s;
 }
-#products .karusel_1 .slide:hover div img {
+#products .karusel_1 .slide:hover div span img {
 	height: 364px;
 }
 #products .karusel_1 .slide div h3 {

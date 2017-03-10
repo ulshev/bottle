@@ -1000,3 +1000,80 @@ p#copy {
 .content .text .product_info a:hover {
 	background-color: #650020;
 }
+
+.page_404 #wrapper {
+	background: url(../images/bg_404.jpg) center bottom no-repeat;
+	height: 100%;
+	min-height: 1050px;
+}
+.page_404 #wrapper .content {
+	height: 100%;
+	position: relative;
+}
+.page_404 #wrapper .content .text {
+	top: 12.5%;
+	position: relative;
+}
+.page_404 #wrapper .content a.button {
+	width: 170px;
+}
+
+
+.sections_products {
+	min-height: 820px;
+	background: url(../images/sections_products.jpg) center top no-repeat;
+	background-size: cover;
+}
+.sections_products .sections {
+	margin: -40px auto 0;
+	max-width: 1260px;
+	padding: 0px 10px;
+	position: relative;
+}
+.sections_products .sections:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+.sections_products .sections .item {
+	float: left;
+	height: 495px;
+	width: 13.9%;
+	margin-left: 7.5%;
+	text-align: center;
+	position: relative;
+}
+.sections_products .sections .item:first-child {
+	margin-left: 0;
+}
+
+.sections_products .sections .item img.img_bottle {
+	width: 66.28%;
+	position: absolute;
+	bottom: 35px;
+	left: 20%;
+	-webkit-transition: bottom 0.3s ease-out 0.1s;
+	-moz-transition: bottom 0.3s ease-out 0.1s;
+	-o-transition: bottom 0.3s ease-out 0.1s;
+	transition: bottom 0.3s ease-out 0.1s;
+}
+.sections_products .sections .item img.img_сaption {
+	width: 100%;
+	position: absolute;
+	bottom: 135px;
+	left: 0;
+	-webkit-transition: bottom 0.3s ease-out 0.1s;
+	-moz-transition: bottom 0.3s ease-out 0.1s;
+	-o-transition: bottom 0.3s ease-out 0.1s;
+	transition: bottom 0.3s ease-out 0.1s;
+}
+.sections_products .sections .item:hover img.img_bottle {
+	bottom: 100px;
+}
+.sections_products .sections .item:hover img.img_сaption {
+	bottom: 0px;
+}
+
+
+
+
