@@ -35,7 +35,7 @@ p {
 	margin: 0 0 22px;
 }
 h1 {    
-	margin: 0 0 35px;
+	margin: 0 0 20px;
 	font-size: 2em;
 	font-weight: 700;
 	line-height: 145%;
@@ -271,6 +271,9 @@ a.button {
 	border-radius: 2px;
 	margin-bottom: 15px;
 }
+a.button:hover {
+	background-color: #81ab15;
+}
 a.button:active {
 	height: 17px;
 	margin-top: 1px;
@@ -286,7 +289,7 @@ a.button:active {
 /* Секция о компании на главной */
 
 #about {
-	min-height: 590px;
+	min-height: 600px;
 	background: #150e09 url(../images/about_bg.jpg) center center no-repeat;
 	background-size: 100% auto;
 	background-attachment: fixed;
@@ -344,9 +347,10 @@ a.button:active {
 #main_form {
 	background: #40332c url(../images/form.jpg) center top no-repeat;
 	background-size: cover;
-	height: 550px;
+	min-height: 550px;
 	z-index: 1;
 	width: 100%;
+	padding-top: 25px;
 }
 #main_form div {
 	color: #fff;
@@ -569,7 +573,7 @@ p#copy {
     font-weight: 300;
     letter-spacing: normal;
     line-height: 165%;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 .content .text ul {
     margin-bottom: 15px;
@@ -614,7 +618,7 @@ p#copy {
 }
 
 .content .text table {
-	width: 100%;
+	width: 98.1%;
 	border-left: 1px solid #ccc;
 	border-top: 1px solid #ccc;
 	margin-bottom: 35px;
@@ -899,7 +903,7 @@ p#copy {
 .content .text .photo_slider li {
 	margin: 0;
 	padding: 0;
-	border-right: 1px solid transparent;
+	border-right: 3px solid transparent;
 	width: 235px;
 	height: 235px;
 	overflow: hidden;
@@ -920,6 +924,9 @@ p#copy {
 	height: 100%;
 	vertical-align: middle;
 	width: auto;
+	cursor: url('../images/cursor.cur'), pointer;
+}
+.content .text a img.sert {
 	cursor: url('../images/cursor.cur'), pointer;
 }
 .photo_slider .prevBtn, .photo_slider .nextBtn {
@@ -1030,7 +1037,7 @@ p#copy {
 	background-size: cover;
 }
 .sections_products .sections {
-	margin: -40px auto 0;
+	margin: -10px auto 0;
 	max-width: 1260px;
 	padding: 0px 10px;
 	position: relative;

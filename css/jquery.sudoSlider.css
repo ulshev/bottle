@@ -10,7 +10,8 @@
 	text-align: center;
 	font-size: 0.93em;
 	letter-spacing: 1px;
-	font-weight: 400
+	font-weight: 400;
+        margin-bottom: 10px;
 }
 #products>p a {
 	color: #222222;
@@ -116,7 +117,7 @@
 	background-color: #fff;
 	overflow: hidden;
 	padding-bottom: 30px;
-	padding-top: 45px
+	padding-top: 10px
 }
 #partners.main_section>div:first-child {
 	padding: 36px 10px 0px;

@@ -22,6 +22,7 @@ function tweakSlider() {
 		    slideCount: 2,
 		    continuous: true,
 		    responsive: false,
+		    speed: 800,
 		});
 		
 		$(".karusel_2").sudoSlider({
@@ -31,7 +32,8 @@ function tweakSlider() {
 		    customLink:'.customLink2',
 		    slideCount: 3,
 		    continuous: true,
-		       responsive: false,
+		    responsive: false,
+		    speed: 600,
 	       });
 	    }else{
 		$(".karusel_1").sudoSlider({
@@ -42,6 +44,7 @@ function tweakSlider() {
 		    slideCount: 1,
 		    continuous: true,
 		    responsive: false,
+		    speed: 800,
 		});
 		
 		$(".karusel_2").sudoSlider({
@@ -51,7 +54,8 @@ function tweakSlider() {
 		    customLink:'.customLink2',
 		    slideCount: 1,
 		    continuous: true,
-		       responsive: false,
+		    responsive: false,
+		    speed: 600,
 	       });
 	    }
 	    
@@ -69,6 +73,7 @@ function tweakSlider() {
 		slideCount: 3,
 		continuous: true,
 		responsive: false,
+		speed: 800,
 	    });
 	    
 	    if (width > 1250) {
@@ -80,7 +85,8 @@ function tweakSlider() {
 		    customLink:'.customLink2',
 		    slideCount: 6,
 		    continuous: true,
-		       responsive: false,
+		    responsive: false,
+		    speed: 600,
 	       });
 	    }else{
 		
@@ -91,7 +97,8 @@ function tweakSlider() {
 		    customLink:'.customLink2',
 		    slideCount: 4,
 		    continuous: true,
-		       responsive: false,
+		    responsive: false,
+		    speed: 600,
 	       });
 	    }
 	    
@@ -149,7 +156,8 @@ $(document).ready(function() {
          prevNext: true,
          numeric: true,
 	 effect: "fadeOutIn",
-         pause: 3000,
+         pause: 2000,
+	 speed: 1100,
          auto:true,
     });
     
@@ -162,7 +170,20 @@ $(document).ready(function() {
 	slideCount: 4,
 	continuous: true,
 	responsive: false,
+	speed: 800,
      });
+    
+    
+
+    $('input,textarea').focus(function(){
+	$(this).data('placeholder',$(this).attr('placeholder'))
+	$(this).attr('placeholder','');
+    });
+    $('input,textarea').blur(function(){
+	$(this).attr('placeholder',$(this).data('placeholder'));
+    });
+
+    
      
     tweakSlider();
 });
