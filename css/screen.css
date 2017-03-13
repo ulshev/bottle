@@ -453,6 +453,7 @@
 	}
 	#foo_in #foo_menu section + section + section {
 		width: 90%;
+		display: none;
 	}
 	#foo_in #foo_menu ul li {
 		margin-bottom: 7px;
@@ -462,7 +463,7 @@
 	}
 	
 	footer {
-		height: 450px;
+		/*height: 450px;*/
 	}
 	.main_section > div, #partners.main_section > div:first-child {
 		width: auto;
@@ -624,7 +625,7 @@
 	}
 	
 	footer {
-		height: 200px;
+		/*height: 200px;*/
 	}
 	#foo_in #foo_cont {
 		float: right;
@@ -850,10 +851,15 @@
 	
 	h1 {
 		font-size: 1.7em;
+		text-align: center;
 	}
 	
 	h2 {
 		font-size: 1.3em;
+		text-align: center;
+	}
+	h3 {
+		text-align: center;
 	}
 	
 	header#header {
@@ -894,7 +900,7 @@
 	}
 	
 	footer {
-		height: 220px;
+		/*height: 220px;*/
 	}
 	#foo_in #foo_cont {
 		float: none;
@@ -1001,7 +1007,7 @@
 	}
 	
 	footer {
-		height: 250px;
+		/*height: 250px;*/
 	}
 	#dw {
 		clear: left;

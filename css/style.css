@@ -93,6 +93,8 @@ footer, header, hgroup, menu, nav, section {
 	min-height: 100%;
 	position: relative;
 	overflow: hidden;
+	display: table;
+	height: 100%;
 	
 /*background: url(../images/site.jpg) center top no-repeat;
 zbackground-size: 100% auto;*/
@@ -241,6 +243,7 @@ header span.menu_batton_mob {
 .main_section {
 	position: relative;
 	z-index: 3;
+	display: table-row;
 }
 .main_section>div {
 	position: relative;
@@ -413,16 +416,20 @@ form input[type="submit"]:active {
 #pre_foo {
 	height: 350px;
 	clear: both;
+	display: none;
 }
 
 footer {
 	height: 350px;
+	height: auto !important;
+	max-height: 350px;
 	width: 100%;
-	position: absolute;
+	/*position: absolute;*/
 	bottom: 0;
 	left: 0;
 	background-color: #222;
 	z-index: 2;
+	display: table-row;
 }
 
 #foo_in { 
@@ -558,6 +565,7 @@ p#copy {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: table-row;
 }
 .content .text {
 	margin: 0 auto;
