@@ -327,7 +327,7 @@
 	.page_404 #wrapper {
 		background-size: 513px auto;
 		background-position: 55% 80%;
-		min-height: 850px;
+		/*min-height: 850px;*/
 	}
 	.page_404 #wrapper .content {
 		height: 100%;
@@ -459,7 +459,7 @@
 		margin-bottom: 7px;
 	}
 	#pre_foo {
-		height: 450px;
+		/*height: 450px;*/
 	}
 	
 	footer {
@@ -588,7 +588,7 @@
 	.page_404 #wrapper {
 		background-size: 50% auto;
 		background-position: 70% 55%;
-		min-height: 950px;
+		/*min-height: 950px;*/
 	}
 	.page_404 #wrapper .content {
 		height: 100%;
@@ -613,7 +613,12 @@
 	.sections_products .sections .item:hover img.img_bottle {
 		bottom: 65px;
 	}
-	
+	.photo_slider {
+		text-align: center;
+	}
+	.photo_slider ul {
+		display: inline-block;
+	}
 }
 
 @media screen and (max-width: 750px) {
@@ -625,7 +630,7 @@
 		display: none;
 	}
 	#pre_foo {
-		height: 200px;
+		/*height: 200px;*/
 	}
 	
 	footer {
@@ -820,7 +825,7 @@
 	.page_404 #wrapper {
 		background-size: 80% auto;
 		background-position: 50% 130%;
-		min-height: 1000px;
+		/*min-height: 1000px;*/
 	}
 	.page_404 #wrapper .content .text {
 		top: 5.5%;
@@ -900,7 +905,7 @@
 		top: 20px;
 	}
 	#pre_foo {
-		height: 220px;
+		/*height: 220px;*/
 	}
 	
 	footer {
@@ -978,7 +983,7 @@
 	
 	.page_404 #wrapper {
 		background-position: 50% 95%;
-		min-height: 930px;
+		/*min-height: 930px;*/
 	}
 	.page_404 #wrapper .content .text {
 		top: 5.5%;
@@ -1007,7 +1012,7 @@
 
 @media screen and (max-width: 470px) {
 	#pre_foo {
-		height: 250px;
+		/*height: 250px;*/
 	}
 	
 	footer {
@@ -1081,7 +1086,7 @@
 	
 	.page_404 #wrapper {
 		background-position: 50% 80%;
-		min-height: 880px;
+		/*min-height: 880px;*/
 	}
 	.page_404 #wrapper .content .text {
 		top: 0.5%;
@@ -1203,7 +1208,7 @@
 		margin-top: 60px;
 	}
 	.page_404 #wrapper {
-		min-height: 800px;
+		/*min-height: 800px;*/
 	}
 	
 	.sections_products {

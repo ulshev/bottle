@@ -35,6 +35,16 @@ function tweakSlider() {
 		    responsive: false,
 		    speed: 600,
 	       });
+		$(".photo_slider ul").sudoSlider({
+		    touch: true,
+		    mouseTouch: true,
+		    prevNext:false,
+		    customLink:'.photo_slider_link',
+		    slideCount: 3,
+		    continuous: true,
+		    responsive: false,
+		    speed: 800,
+		 });
 	    }else{
 		$(".karusel_1").sudoSlider({
 		    touch: true,
@@ -57,6 +67,16 @@ function tweakSlider() {
 		    responsive: false,
 		    speed: 600,
 	       });
+		$(".photo_slider ul").sudoSlider({
+		    touch: true,
+		    mouseTouch: true,
+		    prevNext:false,
+		    customLink:'.photo_slider_link',
+		    slideCount: 1,
+		    continuous: true,
+		    responsive: false,
+		    speed: 800,
+		 });
 	    }
 	    
 	}else{
@@ -75,6 +95,16 @@ function tweakSlider() {
 		responsive: false,
 		speed: 800,
 	    });
+	    $(".photo_slider ul").sudoSlider({
+	touch: true,
+	mouseTouch: true,
+	prevNext:false,
+	customLink:'.photo_slider_link',
+	slideCount: 4,
+	continuous: true,
+	responsive: false,
+	speed: 800,
+     });
 	    
 	    if (width > 1250) {
 	    
@@ -162,16 +192,7 @@ $(document).ready(function() {
     });
     
     
-    $(".photo_slider ul").sudoSlider({
-	touch: true,
-	mouseTouch: true,
-	prevNext:false,
-	customLink:'.photo_slider_link',
-	slideCount: 4,
-	continuous: true,
-	responsive: false,
-	speed: 800,
-     });
+    
     
     
 

@@ -93,8 +93,8 @@ footer, header, hgroup, menu, nav, section {
 	min-height: 100%;
 	position: relative;
 	overflow: hidden;
-	display: table;
-	height: 100%;
+	/*display: table;
+	height: 100%;*/
 	
 /*background: url(../images/site.jpg) center top no-repeat;
 zbackground-size: 100% auto;*/
@@ -243,7 +243,6 @@ header span.menu_batton_mob {
 .main_section {
 	position: relative;
 	z-index: 3;
-	display: table-row;
 }
 .main_section>div {
 	position: relative;
@@ -414,9 +413,10 @@ form input[type="submit"]:active {
 
 /* Подвал */
 #pre_foo {
-	height: 350px;
+	/*height: 350px;*/
 	clear: both;
-	display: none;
+	height: 100% !important;
+	display: table-row;
 }
 
 footer {
@@ -565,7 +565,6 @@ p#copy {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: table-row;
 }
 .content .text {
 	margin: 0 auto;
@@ -868,6 +867,7 @@ p#copy {
 .left_indent.content {
 	max-width: 1300px;
 	margin: 0 auto;
+	display: none;
 }
 .left_indent.content h2 {
 	text-transform: none;
@@ -1024,7 +1024,7 @@ p#copy {
 .page_404 #wrapper {
 	background: url(../images/bg_404.jpg) center bottom no-repeat;
 	height: 100%;
-	min-height: 1050px;
+	/*min-height: 1050px;*/
 }
 .page_404 #wrapper .content {
 	height: 100%;
