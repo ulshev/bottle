@@ -93,13 +93,19 @@ footer, header, hgroup, menu, nav, section {
 	min-height: 100%;
 	position: relative;
 	overflow: hidden;
-	/*display: table;
-	height: 100%;*/
+	display: table;
+	height: 100%;
 	
 /*background: url(../images/site.jpg) center top no-repeat;
 zbackground-size: 100% auto;*/
 }
-
+#index #wrapper {
+	display: block;
+	height: auto;
+	
+/*background: url(../images/site.jpg) center top no-repeat;
+zbackground-size: 100% auto;*/
+}
 
 /* Стили шапки */
 header#header {
@@ -415,14 +421,16 @@ form input[type="submit"]:active {
 #pre_foo {
 	/*height: 350px;*/
 	clear: both;
-	height: 100% !important;
 	display: table-row;
+	height: 100%;
 }
-
+#index #pre_foo {
+	display: none;
+}
 footer {
-	height: 350px;
+	/*height: 350px;*/
 	height: auto !important;
-	max-height: 350px;
+	/*max-height: 350px;*/
 	width: 100%;
 	/*position: absolute;*/
 	bottom: 0;
@@ -431,7 +439,9 @@ footer {
 	z-index: 2;
 	display: table-row;
 }
-
+#index footer {
+	display: block;
+}
 #foo_in { 
 	margin: 0 auto;
 	padding: 27px 10px;
@@ -440,7 +450,11 @@ footer {
 	font-size: 0.85em; 
 	color: #fff;
 }
-
+#foo_in:after { 
+	display: block;
+	content: "";
+	clear: both;
+}
 #foo_in h3 {   
 	margin-bottom: 26px;
 	
@@ -867,7 +881,6 @@ p#copy {
 .left_indent.content {
 	max-width: 1300px;
 	margin: 0 auto;
-	display: none;
 }
 .left_indent.content h2 {
 	text-transform: none;
@@ -907,7 +920,9 @@ p#copy {
 	padding-bottom: 0;
 }
 
-
+.content .text  .photo_slider {
+    max-width: 974px;
+}
 .content .text .photo_slider li {
 	margin: 0;
 	padding: 0;
@@ -1022,16 +1037,17 @@ p#copy {
 }
 
 .page_404 #wrapper {
-	background: url(../images/bg_404.jpg) center bottom no-repeat;
+	background: url(../images/bg_404.jpg) center 70% no-repeat;
 	height: 100%;
 	/*min-height: 1050px;*/
 }
 .page_404 #wrapper .content {
 	height: 100%;
 	position: relative;
+	min-height: 590px;
 }
 .page_404 #wrapper .content .text {
-	top: 12.5%;
+	top: 25.0%;
 	position: relative;
 }
 .page_404 #wrapper .content a.button {
