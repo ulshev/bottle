@@ -198,6 +198,7 @@
 	
 	#about {
 		background-size: cover;
+		min-height: 550px;
 	}
 	
 	#slider  {
@@ -748,6 +749,13 @@
 	}
 	#slider .nextBtn {
 		margin-right: -50%;
+	}
+	#about {
+		min-height: 1px;
+		padding-bottom: 50px;
+	}
+	#about > div {
+		margin-top: 100px;
 	}
 	.content .text {
 		padding-bottom: 15px;
