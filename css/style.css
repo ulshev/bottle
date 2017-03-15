@@ -917,7 +917,7 @@ p#copy {
 .left_indent.content .text {
 	margin-left: 24%;
 	width: auto;
-	padding-bottom: 0;
+	padding-bottom: 15px;
 }
 
 .content .text  .photo_slider {

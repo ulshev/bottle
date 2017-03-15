@@ -563,6 +563,7 @@
 	.foto_left.content .text, .foto_right.content .text {
 		background-color: #fff;
 		height: 100%;
+		max-width: none;
 	}
 	.foto_left.content>img {
 		right: 15%;
@@ -652,7 +653,20 @@
 	#pre_foo {
 		/*height: 200px;*/
 	}
-	
+	.content .text p {
+		text-align: justify;
+	}
+	.content .text p a {
+		display: inline-flex;
+	}
+	.content .text a.button {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.content .text .product_info a {
+		display: inline-block;
+	}
 	footer {
 		/*height: 200px;*/
 	}
@@ -734,26 +748,35 @@
 	#slider .nextBtn {
 		margin-right: -50%;
 	}
+	.content .text {
+		padding-bottom: 15px;
+	}
 	.about.content {
 		background: none;
 		
 	}
 	.about.content .text {
-		padding-right: 10%;
+		padding-right: 10px;
 		width: auto;
+		padding-bottom: 15px;
 	}
 	.history.content .text {
-		padding-right: 30px;
-		padding-top: 70px;
-		padding-bottom: 50px;
+		padding-right: 10px;
+		padding-top: 40px;
+		padding-bottom: 30px;
 	}
 	
 	.advantage.content .text {
+		padding-bottom: 25px;
+		padding-top: 35px;
+	}
+	.advantage.content .text h2 {
+		margin-bottom: 20px;
 	}
 	.advantage.content .text p.adv {
 		display: block;
 		width: auto;
-		margin: 0 2.5% 35px;
+		margin: 0 2.5% 20px;
 		padding-top: 0px;
 		padding-left: 60px;
 		background: url(../images/icon1.png) left center no-repeat;       
@@ -770,7 +793,10 @@
 	.advantage.content .text p.adv + p.adv + p.adv + p {
 		text-align: center;
 	}
-	
+	.about_production.content {
+		padding-bottom: 20px;
+		padding-top: 10px;
+	}
 	.foto_left.content, .foto_right.content {
 		height: auto;
 	}
@@ -782,14 +808,14 @@
 	}
 	.foto_left.content .text, .foto_right.content .text {
 		margin: 0;
-		padding: 30px 10px;
+		padding: 30px 10px 15px;
 		width: auto;
 	}
 	.foto_left.content h2, .foto_right.content h2 {
-		margin-bottom: 35px;
+		margin-bottom: 20px;
 	}
 	.foto_left.content p, .foto_right.content p {
-		margin-bottom: 35px;
+		margin-bottom: 20px;
 	}
 	.content img.sert {
 		width: 30%;
@@ -797,8 +823,8 @@
 		margin-bottom: 25px;
 	}
 	.foto_right.content.text_both .text {
-		padding-top: 50px;
-		padding-bottom: 5px;
+		padding-top: 35px;
+		padding-bottom: 15px;
 	}
 	.foto_right.content.text_both div.text + div.text {
 		height: auto;
@@ -826,6 +852,11 @@
 	.catalog .item>a {
 		height: 250px;
 	}
+	.catalog .item a.button {
+		padding-left: 10px;
+		padding-right: 10px;
+		width: 136px;
+	}
 	.catalog .item img {
 		height: 250px
 	}
@@ -840,6 +871,7 @@
 		background-position: 120% 10px;
 		padding-right: 55px;
 		margin-bottom: 20px;
+		text-align: left;
 	}
 
 	.page_404 #wrapper {
@@ -969,7 +1001,7 @@
 	
 	.four_text .text {
 		width: auto;
-		padding: 50px 10px 1px;
+		padding: 35px 10px 15px;
 		height: auto;
 		float: none;
 	}
@@ -986,12 +1018,15 @@
 	.product_info>div.info  {
 		padding-top: 30px;
 		width: 100%;
+		text-align: center;
 	}
 	.product_info>div.info p {
 		padding: 0;
 		background: none;
 		display: inline-block;
-		margin-right: 30px;
+		vertical-align: top;
+		margin-right: 0px;
+		width: 49%;
 	}
 	.product_info>div {
 		margin-bottom: 10px;
