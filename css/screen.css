@@ -354,6 +354,8 @@
 	
 	#form.content input, #form.content textarea, #form.content select {
 		width: 90%;
+	}
+	#form.content textarea {
 		max-width: 90%;
 		min-width: 90%;
 	}
