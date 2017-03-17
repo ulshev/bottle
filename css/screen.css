@@ -595,6 +595,13 @@
 	.left_indent.content aside.left {
 		display: none;
 	}
+	.content .text .photo_slider li {
+		border-right: 1px solid transparent;
+		border-right: 1px solid transparent;
+	}
+	.photo_slider .nextBtn {
+		margin-right: -50%;
+	}
 	.left_indent.content .text, .content .catalog {
 		margin-left: 0;
 	}
@@ -1136,7 +1143,7 @@
 	#products .karusel_1 .slide div span img {
 		height: 261px;
 	}
-	#products .karusel_1 .slide:hover div img {
+	#products .karusel_1 .slide:hover div span img {
 		height: 261px;
 	}
 	.cont {
@@ -1237,7 +1244,7 @@
 	}
 	#slider .slider h3 {
 		top: 25%;
-		margin-left: -35%;
+		margin-left: -125px;
 		font-size: 1.2em;
 		line-height: 120%;
 		width: 250px;
@@ -1245,7 +1252,7 @@
 	}
 	#slider .slider p {
 		top: 25%;
-		margin-left: -35%;
+		margin-left: -125px;
 		width: 250px;
 		letter-spacing: 0px;
 		font-size: 0.75em;

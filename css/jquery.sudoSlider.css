@@ -285,8 +285,10 @@
 	position: absolute;
 	left: 50%;
 	top: -77px;
-	margin-left: -25px;
+	margin-left: -100px;
 	padding: 0;
+        width: 200px;
+        text-align: center;
 }
 #slider .numericControls li {
 	display: inline-block;
@@ -296,7 +298,8 @@
 	overflow: hidden;
 	border-radius: 9px;
 	padding: 2px;
-	margin-right: 3px;
+	margin-right: 2px;
+        margin-left: 1px;
 }
 #slider .numericControls li.current {
 	background: #fff;
