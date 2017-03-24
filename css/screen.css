@@ -1220,9 +1220,15 @@
 	.sections_products {
 		min-height: 590px;
 	}
+	.sections_products .sections {
+		padding-top: 80px;
+	    }
 	.sections_products .sections .item {
-		/*zheight: 215px;*/
-		width: 50%;
+		height: 335px;
+		width: 40%;
+	}
+	.sections_products .sections .item + .item + .item + .item {
+		height: 285px;
 	}
 	
 	/*.sections_products .sections .item img.img_bottle {
@@ -1336,8 +1342,14 @@
 		
 		min-height: 300px;
 	}
+	.sections_products .sections {
+		padding-top: 80px;
+	}
 	.sections_products .sections .item {
-		height: 330px;
+		height: 300px;
+	}
+	.sections_products .sections .item + .item + .item + .item {
+		height: 255px;
 	}
 	
 	
