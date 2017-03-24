@@ -145,7 +145,10 @@ header#header {
 	line-height: 120%;
 	letter-spacing: 0.04em;
 }
-
+#headr_cont a  {
+	color: #fff;
+	text-decoration: none;
+}
 
 /* Меню в шапке */
 
@@ -363,17 +366,17 @@ a.button:active {
 #main_form div {
 	color: #fff;
 }
-form {
+form.feedback {
 	margin-bottom: 30px;
 	padding-top: 13px;
 }
-input, textarea, select {
+.feedback input, .feedback textarea, .feedback select {
 	padding: 5px 15px;
 	margin-bottom: 20px;
 	width: 750px;
 	height: 40px;
 	outline: none;
-	border: 0;
+	border: 1px solid transparent;
 	background-color: RGBA(0, 0, 0, 0.3);
 	border-radius: 2px;
 	font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
@@ -383,7 +386,7 @@ input, textarea, select {
 	color: #fff;
 }
 
-form textarea {
+form.feedback textarea {
 	height: 70px;
 	padding: 15px 15px;
 	min-width: 750px;
@@ -393,7 +396,7 @@ form textarea {
 	line-height: 140%;
 	margin-bottom: 31px;
 }
-form input[type="submit"] {
+form.feedback input[type="submit"] {
 	padding:3px 15px 5px; 
 	margin-bottom: 1px;
 	width: 180px;
@@ -405,11 +408,11 @@ form input[type="submit"] {
 	cursor: pointer;
 	outline: none;
 }
-form input[type="submit"]:hover {
+form.feedback input[type="submit"]:hover {
 	background-color: #89b713;
 	color: #fff;
 }
-form input[type="submit"]:active {
+form.feedback input[type="submit"]:active {
 	height: 45px;
 	margin-bottom: 2px;
 	margin-top: 1px;
@@ -855,24 +858,24 @@ p#copy {
 	text-align: center;
 }
 
-#form.content input, #form.content textarea, #form.content select {
-	width: 100%;
+#form.content .feedback input, #form.content .feedback textarea, #form.content .feedback select {
+	width: 90%;
 	border: 1px solid #eee;
 	background-color: transparent;
 	color: #555;
 }
-#form.content textarea {
-	width: 100%;
-	max-width: 100%;
-	min-width: 100%;
+#form.content .feedback textarea {
+	width: 90%;
+	max-width: 90%;
+	min-width: 90%;
 }
-#form.content form input[type="submit"] {
+#form.content form.feedback input[type="submit"] {
 	width: 180px;
 	border: 1px solid #89b713;
 	color: #89b713;
 }
 
-#form.content form input[type="submit"]:hover {
+#form.content form.feedback input[type="submit"]:hover {
 	background-color: #89b713;
 	color: #fff;
 }
@@ -922,6 +925,7 @@ p#copy {
 
 .content .text  .photo_slider {
     max-width: 974px;
+    overflow: hidden;
 }
 .content .text .photo_slider li {
 	margin: 0;
@@ -959,7 +963,7 @@ p#copy {
     margin-left: -50%;
 }
 .photo_slider .nextBtn {
-    margin-right: -47.3%;
+    margin-right: -47.99%;
 }
 
 
@@ -1065,6 +1069,7 @@ p#copy {
 	max-width: 1260px;
 	padding: 0px 10px;
 	position: relative;
+	text-align: center;
 }
 .sections_products .sections:after {
 	clear: both;
@@ -1072,10 +1077,11 @@ p#copy {
 	display: block;
 }
 .sections_products .sections .item {
-	float: left;
+	/*float: left;*/
+	display: inline-block;
 	height: 495px;
 	width: 13.9%;
-	margin-left: 7.5%;
+	margin-left: 7.1%;
 	text-align: center;
 	position: relative;
 }
@@ -1103,10 +1109,39 @@ p#copy {
 	-o-transition: bottom 0.3s ease-out 0.1s;
 	transition: bottom 0.3s ease-out 0.1s;
 }
+.sections_products .sections .item .сaption {
+	background-color: #89b713;
+	color: #fff;
+	width: 96%;
+	position: absolute;
+	bottom: 135px;
+	left: 0;
+	-webkit-transition: bottom 0.3s ease-out 0.1s;
+	-moz-transition: bottom 0.3s ease-out 0.1s;
+	-o-transition: bottom 0.3s ease-out 0.1s;
+	transition: bottom 0.3s ease-out 0.1s;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 300;
+	padding: 15px 2%;
+	min-height: 64px;
+}
+.sections_products .sections .item + .item .сaption{
+	padding: 25px 2%;
+	min-height: 44px;
+}
+.sections_products .sections .item + .item + .item .сaption {
+	padding: 15px 2%;
+	min-height: 64px;
+}
+.sections_products .sections .item + .item + .item + .item + .item .сaption {
+	padding: 25px 2%;
+	min-height: 44px;
+}
 .sections_products .sections .item:hover img.img_bottle {
 	bottom: 100px;
 }
-.sections_products .sections .item:hover img.img_сaption {
+.sections_products .sections .item:hover img.img_сaption, .sections_products .sections .item:hover .сaption  {
 	bottom: 0px;
 }
 
